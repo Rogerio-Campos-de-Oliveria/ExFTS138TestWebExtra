@@ -1,0 +1,4 @@
+3 - Teste Web - utilize o site https://www.extra.com.br
+3.1 - Crie um script simples que realize a consulta de um produto no site até chegar a etapa do carrinho de compras. Valide o nome e o preço do produto em cada uma das telas para garantir que se mantenha o mesmo.
+3.2 - Organize esse mesmo script organizado com um arquivo de features e outro de passos. Realize o teste com 2 produtos cujos dados devem estar preenchidos na feature.
+3.3 - Organize esse mesmo script em Page Objects e execute localmente
