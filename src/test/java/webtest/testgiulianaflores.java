@@ -56,8 +56,8 @@ public class testgiulianaflores {
         driver.findElement(By.id("ContentSite_lbtBuy")).click();
 
         driver.findElement(By.cssSelector(".jThisBasket")).click();
-        driver.findElement(By.cssSelector("mesma-data")).click();
-        //driver.findElement(By.id("ContentSite_Basketcontrol1_rptBasket_ibtBuy_0")).click();
+
+        driver.findElement(By.id("ContentSite_Basketcontrol1_rptBasket_ibtBuy_0")).click();
         {
             WebElement element = driver.findElement(By.cssSelector(".owl-item:nth-child(4) > li > a > img"));
             Actions builder = new Actions(driver);
